@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>Jiwoo Yoon</title>
+    <link rel="stylesheet" href="./CSS/index.css"/>
+    <link rel="stylesheet" href="./CSS/reset.css"/>
+    <style>
+      .main {
+        height: auto;
+      }
+
+      .main section {
+        margin: 5vh 5vw;
+        text-align: left;
+      }
+
+      .main article {
+        height: 30vh;
+      }
+
+      .main article::before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #fad61d;
+      }
+
+      .photos figure img,
+      .photos figure figcaption {
+        float: left;
+      }
+
+      .photos figure {
+        width: 45%;
+        margin: 5vh 0;
+      }
+
+      .photos figure img {
+        width: 50%;
+        min-width: 200px;
+        border: 3px solid #db981c;
+        margin-right: 5%;
+      }
+
+      .photos::after {
+        content: '';
+        display: block;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="main-navigation">
+        <ul class="main-menu">
+          <li>
+            <a href="http://localhost:8080/aboutme/index.html">홈</a>
+          </li>
+          <li>
+            <a href="http://localhost:8080/aboutme/aboutme.html">자기소개</a>
+          </li>
+          <li>
+            <a href="http://localhost:8080/aboutme/photo.html">사진</a>
+          </li>
+          <li>
+            <a href="http://localhost:8080/aboutme/today">몇시?</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="photos">
+        <article>
+          <figure>
+            <img src="./img/luck-839037_1920.jpg" alt="카지노" />
+            <figcaption>
+              <p>2018.06</p>
+              제가 열심히 일했던 곳입니다
+            </figcaption>
+          </figure>
+        </article>
+        <article>
+          <figure>
+            <img src="./img/code-1839406_1920.jpg" alt="열공!" />
+            <figcaption>
+              <p>2019.01~</p>
+              열심히 공부 ing~
+            </figcaption>
+          </figure>
+        </article>
+      </section>
+    </main>
+    <footer class="footer">
+      <nav class="footer-nav">
+        <a href="https://github.com/jiwoo-yoon">https://github.com/jiwoo-yoon</a>
+      </nav>
+    </footer>
+  </body>
+</html>

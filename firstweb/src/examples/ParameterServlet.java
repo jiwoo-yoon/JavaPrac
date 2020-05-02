@@ -37,7 +37,7 @@ public class ParameterServlet extends HttpServlet {
 		String name = request.getParameter("name");
 		String age = request.getParameter("age");
 		
-		out.println("name : " + name + "<br>");
+		out.println("name : " + name + "<br><br><br>");
 		out.println("age : " +age + "<br>");
 		
 		out.println("</body>");
